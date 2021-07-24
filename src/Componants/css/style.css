@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  background: #f3f2ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Jost", sans-serif;
+}
+
+.box {
+  background-color: aquamarine;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 45px;
+}
+
+.inputField {
+  margin: 50px;
+  border-radius: 18px;
+  padding: 5px;
+}
+
+.info {
+  margin: 64px auto;
+}
+
+.location {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.temp {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 415px) {
+  .box {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 271px) {
+  .box {
+    width: 200px;
+  }
+
+  .inputField {
+    margin: 50px 20px 0px 20px;
+    /* border-radius: 18px;
+    padding: 5px; */
+  }
+}
+
+.fa-street-view {
+  position: relative;
+  animation-name: logo;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  /* animation-direction: alternate; */
+}
+
+/* @keyframes logo {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 8px;
+    top: 0px;
+  }
+  50% {
+    left: 16px;
+    top: 0px;
+  }
+
+  75% {
+    left: 32px;
+    top: 0px;
+  }
+  100% {
+    right: 16px;
+    top: 0px;
+  }
+} */
